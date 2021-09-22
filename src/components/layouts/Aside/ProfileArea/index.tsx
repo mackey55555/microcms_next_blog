@@ -49,6 +49,7 @@ export const ProfileArea: React.FC = () => {
             <p className={styles.profile__position}>{profile.position}</p>
           </div>
 
+
           {/* SNSアイコンボタン */}
           <ul className={styles.sns}>
             <li className={styles.sns__icon}>
