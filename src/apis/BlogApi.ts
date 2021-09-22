@@ -5,6 +5,7 @@
  */
 /* config */
 import globalAxios from '@/config/globalAxios'
+
 /* constants */
 import { BLOG_SHOW_COUNT } from '@/constants/config'
 import { initBlogItem, initBlogData } from '@/constants/initState'
@@ -28,10 +29,11 @@ const QUERY_LIMIT = '&limit='
  */
 export const getBlogsApi = async (offset: number): Promise<BlogDataType> => {
   const blogData: BlogDataType = initBlogData
-  try {
+  try{
     const res = await globalAxios.get(
       BASE_URL + QUERY_OFFSET + offset + QUERY_LIMIT + BLOG_SHOW_COUNT
     )
+
     blogData.blogList = res.data.contents
     blogData.totalCount = res.data.totalCount
   } catch (error) {

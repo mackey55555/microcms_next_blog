@@ -27,7 +27,7 @@ type Props = {
 export const BlogItem: React.FC<Props> = (props: Props) => {
   /* props */
   const { blogItem } = props
-
+  
   return (
     <Link href="/[blogId]" as={`/${blogItem.id}`}>
       <div className={styles.container}>

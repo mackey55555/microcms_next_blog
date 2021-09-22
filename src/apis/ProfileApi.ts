@@ -24,7 +24,7 @@ const BASE_URL = `${
 export const getProfileByApi = async (): Promise<ProfileType> => {
   let profile: ProfileType = initProfileState
   try {
-    const res = await globalAxios.get(BASE_URL + 'user')
+    const res = await globalAxios.get(BASE_URL + "65ubghsgvh")
     if (res?.data) {
       profile = res.data
     }

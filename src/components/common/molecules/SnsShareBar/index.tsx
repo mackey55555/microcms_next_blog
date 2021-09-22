@@ -30,10 +30,6 @@ export const SnsShareBar: React.FC<Props> = (props: Props) => {
   return (
     <ul className={styles.container}>
       <li className={styles.content}>Share!!</li>
-      {/* はてブ */}
-      <li className={styles.icon}>
-        <HatenaShareButton shareUrl={shareUrl} size={30} />
-      </li>
       {/* Twitter */}
       <li className={styles.icon}>
         <TwitterShareButton shareUrl={shareUrl} title={title} size={30} />

@@ -40,8 +40,8 @@ export const Header: React.FC<Props> = (props: Props) => {
       <div className={styles.main}>
         <Link href="/">
           <div className={styles.title}>
-            <h1>NOCHITOKU</h1>
-            <p>ITエンジニアの技術ブログ</p>
+            <h1>MAKILOG</h1>
+            <p>まっきーの読書感想ブログ</p>
           </div>
         </Link>
         {/* リンク */}

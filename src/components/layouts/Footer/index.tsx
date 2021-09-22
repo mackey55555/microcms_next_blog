@@ -31,7 +31,7 @@ export const Footer: React.FC = () => (
 
     {/* copyright */}
     <p className={styles.copy}>
-      © &nbsp;<span>2021 NOCHITOKU.</span>
+      © &nbsp;<span>2021 マキログ.</span>
     </p>
   </div>
 )

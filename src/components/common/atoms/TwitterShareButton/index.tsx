@@ -33,7 +33,7 @@ export const TwitterShareButton: React.FC<TwitterShareButtonProps> = (
 
   return (
     <TwitterShareArea
-      hashtags={['NOCHITOKU']}
+      hashtags={['MAKILOG']}
       title={shareTitle}
       url={shareUrl}
     >

@@ -32,10 +32,6 @@ export const SnsShareArea: React.FC<Props> = (props: Props) => {
       <div className={styles.container__area}>
         <div className={styles.share}>Share!!</div>
         <ul className={styles.icons}>
-          {/* はてブ */}
-          <li className={styles.icon}>
-            <HatenaShareButton shareUrl={shareUrl} />
-          </li>
           {/* Twitter */}
           <li className={styles.icon}>
             <TwitterShareButton shareUrl={shareUrl} title={title} />
@@ -43,10 +39,6 @@ export const SnsShareArea: React.FC<Props> = (props: Props) => {
           {/* Facebook */}
           <li className={styles.icon}>
             <FacebookShareButton shareUrl={shareUrl} />
-          </li>
-          {/* はてブ SP */}
-          <li className={styles.icon__sp}>
-            <HatenaShareButton shareUrl={shareUrl} size={32} />
           </li>
           {/* Twitter SP */}
           <li className={styles.icon__sp}>
