@@ -4,7 +4,7 @@
  */
 import axios from 'axios'
 
-const X_API_KEY: string = process.env.X_API_KEY || ''
+const X_API_KEY: string = process.env.NEXT_PUBLIC_X_API_KEY || ''
 
 const globalAxios = axios.create({
   headers: {

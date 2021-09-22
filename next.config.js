@@ -2,7 +2,7 @@ const withPWA = require('next-pwa')
 
 const nextConfig = withPWA({
   env: {
-    X_API_KEY: process.env.X_API_KEY,
+    X_API_KEY: process.env.NEXT_PUBLIC_X_API_KEY,
   },
   images: {
     domains: ['images.microcms-assets.io'],
